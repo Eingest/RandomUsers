@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3307FC82868936C003DA8E5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3307FC72868936C003DA8E5 /* User.swift */; };
+		C33080002868B498003DA8E5 /* randomUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = C3307FFF2868B498003DA8E5 /* randomUsers.json */; };
 		C39F72652864C031005A31C0 /* RandomUsersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F72642864C031005A31C0 /* RandomUsersApp.swift */; };
 		C39F72672864C031005A31C0 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F72662864C031005A31C0 /* UsersView.swift */; };
 		C39F72692864C035005A31C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39F72682864C035005A31C0 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C3307FC72868936C003DA8E5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C3307FFF2868B498003DA8E5 /* randomUsers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = randomUsers.json; sourceTree = "<group>"; };
 		C39F72612864C031005A31C0 /* RandomUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39F72642864C031005A31C0 /* RandomUsersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersApp.swift; sourceTree = "<group>"; };
 		C39F72662864C031005A31C0 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
@@ -78,6 +82,7 @@
 		C39F72582864C031005A31C0 = {
 			isa = PBXGroup;
 			children = (
+				C3307FFF2868B498003DA8E5 /* randomUsers.json */,
 				C39F72632864C031005A31C0 /* RandomUsers */,
 				C39F72742864C035005A31C0 /* RandomUsersTests */,
 				C39F727E2864C035005A31C0 /* RandomUsersUITests */,
@@ -102,6 +107,7 @@
 				C39F72662864C031005A31C0 /* UsersView.swift */,
 				C39F72902864D043005A31C0 /* UserData.swift */,
 				C39F728E2864C12E005A31C0 /* UserFetchingClient.swift */,
+				C3307FC72868936C003DA8E5 /* User.swift */,
 				C39F72682864C035005A31C0 /* Assets.xcassets */,
 				C39F726A2864C035005A31C0 /* Preview Content */,
 			);
@@ -239,6 +245,7 @@
 			files = (
 				C39F726C2864C035005A31C0 /* Preview Assets.xcassets in Resources */,
 				C39F72692864C035005A31C0 /* Assets.xcassets in Resources */,
+				C33080002868B498003DA8E5 /* randomUsers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +273,7 @@
 				C39F72672864C031005A31C0 /* UsersView.swift in Sources */,
 				C39F72652864C031005A31C0 /* RandomUsersApp.swift in Sources */,
 				C39F72912864D043005A31C0 /* UserData.swift in Sources */,
+				C3307FC82868936C003DA8E5 /* User.swift in Sources */,
 				C39F728F2864C12E005A31C0 /* UserFetchingClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

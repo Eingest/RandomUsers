@@ -10,7 +10,7 @@ import Foundation
 @MainActor
 class UserData: ObservableObject {
     // Published updates users with the new Data from UsersView
-    @Published var users: String = ""
+    @Published var users: [User] = []
     
     init() {
         Task {

@@ -13,15 +13,19 @@ struct UsersView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
-                Text("Raw JSON Data: ")
-                ScrollView {
-                    Text(userData.users)
+            List(userData.users) { user in
+                HStack {
+                    AsyncImage(url: URL(string: user.picture.thumbnail)) { image in
+                        image.clipShape(Circle())
+                    } placeholder: {
+                        Image(systemName: "person")
+                            .frame(width: 50, height: 50, alignment: .center)
+                    }
+                    Text(user.fullName)
                 }
             }
+            .navigationTitle("Random Users")
         }
-        .padding()
-        .navigationTitle("Random Users")
     }
 }
 
